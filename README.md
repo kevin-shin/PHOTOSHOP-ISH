@@ -1,8 +1,5 @@
 # PHOTOSHOP-ISH
-Python GUI Interface, contains useful photo manipulation functions
-
-Kevin Shin, Arianna Dart, Redi Kurt
-Photoshop-ish
+A simple, easy-to-use Python GUI developed with tkinter to perform basic photo manipulations.
 
 MANUAL AND REPORT
 
@@ -19,7 +16,7 @@ The available tools are as follows:
 •	Save: The user clicks on the Reset button and can type in a string to designate the name of the file. The image with the latest edits is saved to the same directory where the Python file is located.
 In order to quit the program entirely, the user can click the red button in the top left corner to close the window. 
 
-Report												
+										
 
 Summary
 Our program, Photoshop-ish, only contains one file in which we have all of our code. However, in the zip folder there is also the image tools file, and the Sample Image folder which was provided in class. We provide blemish.jpg, a sample image on which we experimented with our functions. The user can import any photo of their choosing. Our program is structured as follows:
@@ -35,3 +32,7 @@ Coordinates: Then, we have our “coordinates” function which controls the cal
 Functions: Finally, we have all our individual photo editing functions. The function “cropImage”, crops the part of the image selected by the user, “healingPatch” masks the blemishes by blurring the area selected by the user and then the “cloneFunction” clones the area selected by the user and “copyPicInto” pastes that cloned area into a selected position by the user on the photo. Moreover, in this section we have the three filter functions: “grayscale”, “yellowSepia” and posturize which is divided into two functions “convertTo4” and “posterize64”. These functions apply the respective filter onto the photo in the canvas. 
 
 Reset and Save: Lastly, we have three more functions at the end: “reset”, “savePhoto” and “entryResponse”. “Reset” will undo all the manipulations the user has done on the image and set the picture of the canvas to the original image. “SavePhoto” opens a window that prompts the user to enter a name for their image. This function binds the return key to “entryResponse”, which in turn will take the image currently displayed on the canvas and save it under the name entered by the user.
+
+
+Coauthors: Arianna Dart, Redi Kurt
+
