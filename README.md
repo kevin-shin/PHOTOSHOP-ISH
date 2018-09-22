@@ -1,8 +1,6 @@
 # PHOTOSHOP-ISH
 A simple, easy-to-use Python GUI developed with tkinter to perform basic photo manipulations.
 
-MANUAL AND REPORT
-
 User’s Manual											
 
 Our program, Photoshop-ish, allows the user to upload any image from their computer, perform a collection of edits on that photo, and then save the image back to their computer. If the user is interested in having a user-friendly, straightforward program to make basic edits on their photo, our program offers a simplified version of Photoshop which the user might find more intuitive and accessible than a complex photo editing program. This process begins by opening the Python file Final Project Code.py in any Python environment and running the program. imageTools.py must be in the same directory as the Python code. When the user first runs the program, a GUI interface will appear with a default image in place, and the user can press the button “Click Here to Begin” to upload an image file from any location on their computer. Once that is selected, the picture will be displayed on the interface, with a set of buttons on the right-hand side. 
@@ -19,6 +17,7 @@ In order to quit the program entirely, the user can click the red button in the 
 										
 
 Summary
+
 Our program, Photoshop-ish, only contains one file in which we have all of our code. However, in the zip folder there is also the image tools file, and the Sample Image folder which was provided in class. We provide blemish.jpg, a sample image on which we experimented with our functions. The user can import any photo of their choosing. Our program is structured as follows:
 
 Imports: At the top of our python file we have our imports which are “tkinter” and “imageTools”.
