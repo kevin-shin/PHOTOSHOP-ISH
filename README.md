@@ -33,5 +33,5 @@ Functions: Finally, we have all our individual photo editing functions. The func
 Reset and Save: Lastly, we have three more functions at the end: “reset”, “savePhoto” and “entryResponse”. “Reset” will undo all the manipulations the user has done on the image and set the picture of the canvas to the original image. “SavePhoto” opens a window that prompts the user to enter a name for their image. This function binds the return key to “entryResponse”, which in turn will take the image currently displayed on the canvas and save it under the name entered by the user.
 
 
-Coauthors: Arianna Dart, Redi Kurt
+Coauthors: Arianna Dart, Redon Kurti
 
